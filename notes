@@ -1,9 +1,27 @@
-def hardCodedKernel():
-           x+,y+
-            3,0
-    1,1 2,1 3,1 4,1 5,1 
-    1,2 2,2 3,2 4,2 5,2
-0,3 1,3 2,3 3,3 4,3 5,3 6,3
-    1,4 2,4 3,4 4,4 5,4 
-    1,5 2,5 3,5 4,5 5,5
-            3,6
+
+
+
+
+		def hardCodedKernel():
+          	   x+,y+
+           	     0
+        	    3,0
+1   	1,1 2,1 3,1 4,1 5,1  	6
+7   	1,2 2,2 3,2 4,2 5,2 	11
+12	0,3 1,3 2,3 3,3 4,3 5,3 6,3 18
+19    	1,4 2,4 3,4 4,4 5,4  	23
+24    	1,5 2,5 3,5 4,5 5,5 	28	
+        	    3,6
+        	     29
+
+
+
+Journal:
+--------
+
+To speed up the calculation, I could discretize the image into values 0 - 9 and then create a dictionary
+this dictionary represents the histogram. Subsequently when I move a moving-window through the image I can
+subtract and add values to the dictionary in each step. That would be adding and removing 20 values in each step. 
+
+It is possible there is a way to change the previously calculated variance instead of recalculating the variance in each step. 
+
