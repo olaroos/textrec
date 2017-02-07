@@ -1,6 +1,5 @@
 img
 .ipynb_checkpoints/
-result
-testData
+trainingSet
 cplusplus
 cythonprogram*
