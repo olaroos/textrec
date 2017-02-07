@@ -1,4 +1,6 @@
 img
 .ipynb_checkpoints/
+result
+testData
 cplusplus
 cythonprogram*
