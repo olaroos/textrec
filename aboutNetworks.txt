@@ -1,0 +1,16 @@
+Standard Gradient Descent:
+--------------------------
+
+training uses only one cost function output to update the weights and biases.
+
+Mini-Batch training:
+--------------------
+
+uses an average of multiple inputs/outputs of the cost function to update the weights and biases in one go.
+
+mini-batch training of batch size 1 is SGD(Standard Gradient Descent training)
+
+Back-propagation:
+-----------------
+
+For back propagation to work we need to make two assumptions of the cost-function.
