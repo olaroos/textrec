@@ -25,3 +25,9 @@ subtract and add values to the dictionary in each step. That would be adding and
 
 It is possible there is a way to change the previously calculated variance instead of recalculating the variance in each step. 
 
+
+
+
+11/02/2017:
+
+If I always want the img that I use for calculation of filters to be in a general format, how would I preprocess it? 

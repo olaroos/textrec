@@ -14,3 +14,10 @@ Back-propagation:
 -----------------
 
 For back propagation to work we need to make two assumptions of the cost-function.
+
+#1 
+	The cost function can be written as an average C = 1/n \sum_x C_x for individual training examples, x. 
+
+#2 
+	The cost can be written as a function of the outputs from the neural network:
+	cost C = C(a^L)
