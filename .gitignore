@@ -4,5 +4,8 @@ trainingSet
 cplusplus
 cythonprogram*
 training/img/*
+training/!img
 training/preprocess/*
+training/!preprocess
 training/train/*
+training/!train
